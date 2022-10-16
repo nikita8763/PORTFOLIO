@@ -1,0 +1,268 @@
+body{
+    /* background-image: url(https://images.pexels.com/photos/461064/pexels-photo-461064.jpeg?cs=srgb&dl=pexels-pixabay-461064.jpg&fm=jpg); */
+    background-size: cover;
+    margin: auto 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #E0E0DD; */
+}
+
+a{
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+}
+
+li{
+    padding: 20px;
+}
+
+li:hover{
+    scale: 1.15;
+    transition:all .2s;
+}
+
+/********** nav bar *************/
+
+.main-nav{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgba(18, 18, 23,.7); */
+    list-style: none;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 850px){
+    .main-nav{
+        font-size: 0.7em;
+        padding:0;
+    }
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.name{
+    margin-right: auto;
+}
+
+/****************************/
+
+/********** home *************/
+
+.home{
+    /* background: #000000 url("5.jpg"); */
+    background-image: url("https://images.pexels.com/photos/939331/pexels-photo-939331.jpeg?cs=srgb&dl=pexels-daan-stevens-939331.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: monospace;
+}
+
+/********** education *************/
+
+.education{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:#D7D7D6;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/****************************/
+
+/********** Personal projects *************/
+
+.personal_projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* background-color: #000000; */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.title{
+    margin: 0 auto;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    max-height: fit-content;
+    max-width: 800px;
+    padding: 30px;
+    background-color:#0b0b0b;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.inner{
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.about .grid{
+    padding: 10px 20px;
+}
+
+.grid:hover{
+    scale: 1.05;
+    transition: all .5s;
+}
+
+/****************************/
+
+/********** skills *************/
+
+.skills{
+    /* background-color: black; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.skills .grid{
+    max-width: 150px;
+}
+
+.skills ul{
+    color: white;
+    padding: 0;
+}
+
+.skills li{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+.skills li:hover{
+    background-color: rgb(107, 103, 103);
+    color: rgb(7, 7, 7);
+    border-radius: 10px;
+}
+
+
+/****************************/
+
+/********** achievements *************/
+
+.achievements{
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.achievements .title{
+    margin: 0;
+    margin-top: 5vh;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    max-height: 900px;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #060606;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.box:hover{
+    transition: all 0.3s;
+    scale: 1.05;
+}
+
+h3{
+    height: 50px;
+    border-bottom: 2px solid white;
+}
+
+.data{
+    margin: 10px;
+    padding: 10px 30px;
+    min-height: 20vh;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 0.7em;
+}
+
+/****************************/
+
+/********** contacts *************/
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #121217;
+    min-height: 20vh;    
+    padding: 20px;
+    color: white;
+}
+
+.contacts .title{
+    margin: auto;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.links:hover{
+    transition: all .3s;
+    scale: 1.2;
+}
+
+/****************************/
+
